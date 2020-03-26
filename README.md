@@ -29,13 +29,14 @@ This example uses [Container Engine](https://cloud.google.com/container-engine/)
    access to the Vision APIs.
    First set your zone, e.g.:
 
-        gcloud config set compute/zone us-central1-f
+        gcloud config set compute/zone us-central1-c
 
    Then start up the cluster:
 
         gcloud container clusters create get-image-info \
             --num-nodes 2 \
             --scopes cloud-platform
+            --subnetwork=default
 
 2. Set up the `kubectl` command-line tool to use the container's credentials.
 
@@ -47,7 +48,12 @@ This example uses [Container Engine](https://cloud.google.com/container-engine/)
 
 ## Deploy the sample
 
-From the `get-image-info` directory, use `make all` to build and deploy everything.
+Get the example source code.
+
+        git clone https://github.com/jawilliam/gcp-getimageinfo-python-flask-k8.git
+
+
+From the `gcp-getimageinfo-python-flask-k8` directory, use `make all` to build and deploy everything.
 Make sure Docker is running first.
 
         make all
