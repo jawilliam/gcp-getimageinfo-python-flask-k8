@@ -106,7 +106,7 @@ your browser.
 /image/info/<path>'
 
 	
-	http://35.226.121.9/image/info/https://media.metrolatam.com/2020/03/18/auno1166549-475ceb522eeb2d87219a03bebe65461d-600x400.jpg
+	http://35.193.40.229/image/info/http://www.photos-public-domain.com/wp-content/uploads/2011/01/old-vw-bug-and-van.jpg
 Method	GET
 
 | Comando | Descripción |
@@ -114,7 +114,7 @@ Method	GET
 | Titulo | Rest API - Get Image Info |
 | URL | EXTERNAL-IP/image/info/IMAGE-URI |
 | Method | GET |
-|Success Response | [{"Description":"Jaime Ma\u00f1alich","Score":8.595000267028809},{"Description":"Coronavirus","Score":0.6283000111579895},{"Description":"Curfew","Score":0.5040000081062317},{"Description":"Chile","Score":0.4136999845504761},{"Description":"2020 coronavirus pandemic in Chile","Score":0.40275001525878906},{"Description":"Teletrece","Score":0.37755000591278076},{"Description":"","Score":0.3553999960422516},{"Description":"","Score":0.3118000030517578},{"Description":"","Score":0.2824000120162964},{"Description":"","Score":0.2799000144004822}] |
+|Success Response | [{"Description":"Volkswagen Beetle","Score":3.4932007789611816},{"Description":"Volkswagen","Score":1.028249979019165},{"Description":"Car","Score":0.988800048828125},{"Description":"Volkswagen Type 2","Score":0.8734500408172607},{"Description":"Volkswagen","Score":0.7285500168800354},{"Description":"Van","Score":0.7183499932289124},{"Description":"","Score":0.6855000257492065},{"Description":"Volkswagen Golf","Score":0.6030000448226929},{"Description":"Antique car","Score":0.5632274150848389},{"Description":"Automotive design","Score":0.49471405148506165}] |
 
 ## Cleanup
 
